@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header class="h-[20%]">
+        <nav class="navbar ">
+            <div class="logo sm:text-sm md:text-lg ">
+                Goa Trails
+            </div>
+            <div class="flex input w-[40%] items-center ">
+                <input class="inp-1" type="text" placeholder="Search places">
+
+
+                <button class="search-btn 
+                ">
+                    <!-- <span class="hidden lg:block">
+                    Search
+                </span>  -->
+                    <span class="material-symbols-outlined block lg:hidden !important">
+                        search
+                    </span>
+                </button>
+
+
+            </div>
+            <ul class="navul flex gap-7 text-xl pr-3 items-center ">
+                <li class="list">City</li>
+                <li class="list">Essentials</li>
+                <li class="list">Plan your Trip</li>
+                <li class="ham"><span class="material-symbols-outlined">
+                        menu
+                    </span>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main class="main">
+
+        <div class="carousel">
+            <img id="carousel-img" class="cimg" src="" alt="tourism spots">
+
+            <button id="prev"><span class="material-symbols-outlined ">
+                    arrow_back_ios
+                </span></button>
+
+
+            <button id="next"><span class="material-symbols-outlined">
+                    arrow_forward_ios
+                </span></button>
+
+        </div>
+
+        <div class="content">
+            <h1 id="title" class="textitle">Title</h1>
+            <p id="desc" class="textdesc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum deserunt eius vel sit eos consectetur, velit distinctio ratione nisi neque iste recusandae, nihil minus ad. Odit nobis similique iste doloribus voluptatibus accusantium obcaecati eum omnis.</p>
+        </div>
+    </main>
+    <div class="line"></div>
+
+    <article class="article flex flex-col">
+        <h1 class=" text-white text-4xl ml-10 mt-10 font-semibold">Quick navigation</h1>
+        <div class="cards" id="card-container">
+            
+        </div>
+    </article>
+
+
+    <footer class="bg-[#0f0f0f] text-white text-center w-full h-auto ">
+        <p>&copy; 2025 Goa Tourism. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
